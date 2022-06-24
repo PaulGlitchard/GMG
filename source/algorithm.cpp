@@ -1,10 +1,10 @@
-#include "algorithm.hpp"
+#include "Algorithm.hpp"
 
 
-algorithm::algorithm(/* args */)
+Algorithm::Algorithm(/* args */)
 {
 }
 
-algorithm::~algorithm()
+algorithm::~Algorithm()
 {
 }

@@ -1,13 +1,13 @@
 #ifndef ALGORITHM_HPP
 #define ALGORITHM_HPP
 
-class algorithm
+class Algorithm
 {
 private:
   
 public:
-  algorithm(/* args */);
-  ~algorithm();
+  Algorithm(/* args */);
+  ~Algorithm();
 };
 
 

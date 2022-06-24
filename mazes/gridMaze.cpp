@@ -1,9 +1,9 @@
-#include "gridMaze.hpp"
+#include "GridMaze.hpp"
 
-gridMaze::gridMaze(/* args */)
+GridMaze::GridMaze(/* args */):
 {
 }
 
-gridMaze::~gridMaze()
+GridMaze::~GridMaze()
 {
 }

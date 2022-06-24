@@ -1,15 +1,15 @@
 #ifndef GRIDMAZE_HPP
 #define GRIDMAZE_HPP
 
-#include "maze.hpp"
+#include "Maze.hpp"
 
-class gridMaze : maze
+class GridMaze : Maze
 {
 private:
     /* data */
 public:
-    gridMaze(/* args */);
-    ~gridMaze();
+    GridMaze(/* args */);
+    ~GridMaze();
 };
 
 
