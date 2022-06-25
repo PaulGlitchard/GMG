@@ -8,6 +8,7 @@ class Maze
 private:
   std::string _name;
   std::string _description;
+  
 public:
   Maze(/* args */);
   ~Maze();
