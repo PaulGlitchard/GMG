@@ -1,17 +1,20 @@
-#include "maze.hpp"
+#include "Maze.hpp"
 
 
 
-maze::maze(/* args */)
+Maze::Maze(/* args */)
 {
 }
 
-maze::~maze()
+Maze::~Maze()
 {
 }
 
-void maze::setName(std::string name)
-{
-  
-} 
+void Maze::setName(std::string name)
+{ _name = name; } 
+
+void Maze::setDescription(std::string description)
+{ _description = description};
+
+
 

@@ -3,14 +3,17 @@
 
 #include <string>
 
-class maze
+class Maze
 {
 private:
-  std::string name;
+  std::string _name;
+  std::string _description;
+  
 public:
-  maze(/* args */);
-  ~maze();
+  Maze(/* args */);
+  ~Maze();
   void setName(std::string name);
+  void setDescription(std::string description)
 };
 
 #endif
