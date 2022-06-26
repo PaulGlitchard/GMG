@@ -1,4 +1,4 @@
 @echo off
 
-g++ -Wall build/main.cpp -o build/maze_generator
+g++ -o build/maze_generator source/main.cpp source/Generator.cpp source/Maze.cpp source/Algorithm.cpp
 .\build\maze_generator.exe

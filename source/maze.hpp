@@ -13,7 +13,7 @@ public:
   Maze(/* args */);
   ~Maze();
   void setName(std::string name);
-  void setDescription(std::string description)
+  void setDescription(std::string description);
 };
 
 #endif
